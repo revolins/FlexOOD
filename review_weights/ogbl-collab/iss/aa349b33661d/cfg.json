@@ -1,0 +1,31 @@
+{
+ "fit_max": 2018,
+ "fit_min": 2012,
+ "method": "ISS",
+ "coef": 0.0,
+ "seed": 5,
+ "w_far": 3.0,
+ "protos": [
+  "S2b",
+  "S1a"
+ ],
+ "gen": "",
+ "gen_beta": [
+  -1.0,
+  1.0,
+  2.0
+ ],
+ "steps": 3000,
+ "lr": 0.001,
+ "wd": 1e-05,
+ "drop": 0.1,
+ "bp": 512,
+ "bn": 512,
+ "log_every": 50,
+ "iss_boot": 50,
+ "iss_C": 0.05,
+ "iss_keep": 0.8,
+ "version": 1,
+ "hash": "aa349b33661d",
+ "tag": ""
+}
